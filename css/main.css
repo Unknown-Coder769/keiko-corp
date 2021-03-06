@@ -482,14 +482,24 @@ a.app_link{
 	display: inline-block;
 }
 
+/* Playstore And AppStore Buttons  */
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
 
+.btn-app img {
+    height: 3.7em;
+    width: auto;
+    margin-right: 0.625em;
+	margin-top: 0.55em;
+	transition: all 0.35s linear;
+}
 
-
-
-
-
-
+.btn-app img:hover{
+	transform: scale(1.05);
+}
 
 /*		App features 		*/
 
